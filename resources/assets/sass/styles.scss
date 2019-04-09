@@ -1,0 +1,162 @@
+body {
+    background: -webkit-gradient(linear, left bottom, left top, from(#5243AA), to(#0079bf));
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.navigation {
+    .account-block__ul {
+        li {
+            display: inline-block;
+        }
+    }
+}
+
+.link--white {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.block-content__login_form {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.block-content__title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+
+    .h2 {
+        font-size: 2em;
+    }
+    .h3 {
+        font-size: 1.5em;
+    }
+}
+
+.field * {
+    display: block;
+    color: #fff;
+}
+
+.field {
+    label {
+        margin-bottom: 5px;
+        font-size: 1.3em;
+        font-weight: 800;
+    }
+    input {
+        margin-bottom: 10px;
+        width: 100%;
+        color: #000;
+        border: 1px solid #CDD2D4;
+        background: #fff;
+        border-radius: 3px;
+        padding: 5px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+    button {
+        margin: 0 auto;
+        background: #fff;
+        padding: 10px 20px;
+        border-radius: 3px;
+        color: #000;
+    }
+}
+
+.mainContent {
+    min-height: 600px;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.elm--gray {
+    color: #B3BAC5;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+}
+
+.board--item {
+    padding: 40px 0 20px;
+    cursor: pointer;
+    background: rgba(9,45,66,.08);
+    border-radius: 5px;
+}
+
+.board--item-title {
+    /*color: #B3BAC5;*/
+    font-weight: 800;
+    font-size: 1.1em;
+}
+
+.theme--light.v-sheet.board--grey {
+    background: #dfe3e6;
+}
+
+.tasklist-block {
+    padding: 10px;
+}
+
+.tasklist--detail {
+    /*border-radius: 5px;*/
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+
+.tasklist--detail .v-card__title {
+    padding: 5px;
+}
+
+.tasklist--title {
+    font-weight: 500;
+    padding: 2px 5px;
+}
+
+.tasklist--title-block {
+    position: relative;
+    cursor: pointer;
+}
+
+.tasklist--remove-task {
+    position: absolute;
+    right: 5px;
+}
+
+.tasklist-block--title {
+    padding: 0 0 5px 5px;
+    color: #000;
+    font-weight: 800;
+}
+
+.tasklist--newtask.v-card.v-sheet.theme--light {
+    background: transparent;
+    box-shadow: none;
+}
+.tasklist--newtask-block {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tasklist-newtask-title {
+    color: #828282;
+}
+
+.newlist-block.white--text.v-card.v-sheet.theme--light {
+    background: rgba(0,0,0,.12);
+    box-shadow: none;
+}
+//#f8f9f9;
